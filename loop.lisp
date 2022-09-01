@@ -1,0 +1,10 @@
+(let ((n 1))
+	(loop while (<= n 10) collect n do
+		(loop for i from 1 to 10 do ;while(n < 10)
+			(format t "~a x ~a = ~a" i n (* i n))
+			(terpri)	
+		)
+		(terpri)
+		(setq n (+ n 1))
+	)
+)
