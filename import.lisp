@@ -1,0 +1,2 @@
+(load "function.lisp")
+(run)
