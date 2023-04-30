@@ -9,7 +9,7 @@
 )
 
 (defun main()
-	write_file("hello.txt" "helloworld")
+	(write_file "hello.txt" "helloworld")
 )
 
 (main)
